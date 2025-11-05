@@ -305,7 +305,7 @@
         etaText.textContent = `ETA: ${formatETA(etaSec)}`;
 
         if (downloaded < totalBytes) {
-          status.textContent = "Downloading Falconcraft Infdev 25w45bp2454 game files…";
+          status.textContent = "Downloading Falcraft Infdev 25w45bp2454 game files…";
         } else {
           clearInterval(interval);
           clearInterval(fileInterval);
@@ -328,7 +328,7 @@
 </head>
 
 <body>
-  <h1>Read this before playing Falconcraft</h1>
+  <h1>Read this before playing Falcraft</h1>
   <h2>How to read snapshot name:</h2>
   <p>
     Format: YYwWWnTTTTn<br>
@@ -339,7 +339,7 @@
     - TTTT = time in 24-hour format (e.g. 1:18 AM → 0118)
   </p>
 
-  <h1>How to play Falconcraft:</h1>
+  <h1>How to play Falcraft:</h1>
   <ul>
     <li>Left-click → Mine stuff</li>
     <li>W → Forward</li>
@@ -351,14 +351,14 @@
 
   <h3>Made by H125</h3>
 
-  <p>I have read the Readme text above and would like to play Falconcraft:</p>
-  <button onclick="openBothPages()">Play Falconcraft</button>
+  <p>I have read the Readme text above and would like to play Falcraft:</p>
+  <button onclick="openBothPages()">Play Falcraft</button>
 
   <!-- Fake download overlay -->
   <div id="downloadOverlay">
     <div class="download-box">
-      <h2>Downloading Falconcraft Files</h2>
-      <h3>These files will be deleted once Falconcraft is closed and will re download when this is open again.</h3>
+      <h2>Downloading Falcraft Files</h2>
+      <h3>These files will be deleted once Falcraft is closed and will re download when this is open again.</h3>
       <div class="bar-wrap"><div id="bar" class="bar"></div></div>
       <div class="status">
         <span id="percentText">0%</span> • 
@@ -372,5 +372,6 @@
   </div>
 </body>
 </html>
+
 
 
