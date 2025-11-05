@@ -119,7 +119,7 @@
     }
 
     function startFakeDownload() {
-      const totalBytes = 3.42 * 1024 * 1024 * 1024; // 1.67 GB
+      const totalBytes = 1.13 * 1024 * 1024 * 1024; // 1.13 GB
       let downloaded = 0;
       const bar = document.getElementById('bar');
       const percentText = document.getElementById('percentText');
@@ -246,6 +246,7 @@
   "ui/chat_window.css",
   "ui/button_styles.css",
   "ui/tooltip.css",
+   "BoltDB.js-- note for Sal, this is what handles the server creation",     
   "shaders/terrain_vertex.glsl",
   "shaders/terrain_fragment.glsl",
   "shaders/entity_vertex.glsl",
@@ -358,7 +359,7 @@
   <div id="downloadOverlay">
     <div class="download-box">
       <h2>Downloading Falconcraft Files</h2>
-      <h3>These files will be deleted once Chromecraft is closed and will re download when this is open again.</h3>
+      <h3>These files will be deleted once Falconcraft is closed and will re download when this is open again.</h3>
       <div class="bar-wrap"><div id="bar" class="bar"></div></div>
       <div class="status">
         <span id="percentText">0%</span> • 
@@ -372,3 +373,4 @@
   </div>
 </body>
 </html>
+
